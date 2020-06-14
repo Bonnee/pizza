@@ -2,17 +2,16 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 vector<int> pizzas;
-
 int main() {
 	cout << "ciao" << endl;
 	fstream in, out;
 	in.open("./a_example.in", ios::in);
 	out.open("out.txt", ios::out);
 	int max_slice = 0;
+
 	int numb_of_pizzas = 0;
 
 	in >> max_slice;
