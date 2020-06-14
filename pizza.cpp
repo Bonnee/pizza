@@ -30,7 +30,7 @@ int main() {
 	for (int j = 0; j < max_slice + 1; j++) {
 		mat[j][0] = 0;
 	}
-
+// prova a vedere se mi vedi che modifico il file
 	for (int i = 1; i < max_slice + 1; i++) {
 		for (int j = 1; j < pizzas.size() + 1; j++) {
 			if (pizzas[i - 1] <= j) {
